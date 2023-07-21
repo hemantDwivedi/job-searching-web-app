@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94141024-24fd-4684-9791-60ad84a5c9a1" name="Changes" comment="implemented Education model">
+      <change afterPath="$PROJECT_DIR$/../../job-backend/src/main/java/com/xyz/jobbackend/controller/JobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../job-backend/src/main/java/com/xyz/jobbackend/dto/JobDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../job-backend/src/main/java/com/xyz/jobbackend/model/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../job-backend/src/main/java/com/xyz/jobbackend/repository/JobRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../job-backend/src/main/java/com/xyz/jobbackend/service/JobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../job-backend/src/main/java/com/xyz/jobbackend/service/impl/JobServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../backend/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/job-portal/src/component/MainContentComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/job-portal/src/component/MainContentComponent.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="UML Class" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2O2fwOgAcfUe4OOtzMkaytXythy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/projects/full-stack-job-portal/job-portal/backend&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.inverse.project.Jobless.security" />
+      <recent name="com.inverse.project.Jobless.config" />
+      <recent name="com.inverse.project.Jobless.dto" />
+      <recent name="com.inverse.project.Jobless.exceptions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\Jobless\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JoblessApplication">
+    <configuration name="JoblessApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.inverse.project.Jobless.JoblessApplication" />
+      <module name="Jobless" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inverse.project.Jobless.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Jobless" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Jobless" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Jobless" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inverse.project.Jobless.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.inverse.project.Jobless.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.inverse.project.Jobless.controllers.UserControllerTest" />
+      <option name="METHOD_NAME" value="testAddUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserControllerTest.testAddUser" />
+        <item itemvalue="JUnit.All in Jobless" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94141024-24fd-4684-9791-60ad84a5c9a1" name="Changes" comment="" />
+      <created>1680763840883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680763840883</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added Role Model and Repo">
+      <created>1680766292437</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680766292437</updated>
+    </task>
+    <task id="LOCAL-00002" summary="implementing Applicant Model">
+      <created>1680774143136</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680774143136</updated>
+    </task>
+    <task id="LOCAL-00003" summary="implementing Resume Model">
+      <created>1680783952462</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680783952462</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added Project Model">
+      <created>1680800312252</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680800312252</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix: changed primitive to wrapper class">
+      <created>1680833120904</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680833120904</updated>
+    </task>
+    <task id="LOCAL-00006" summary="implemented Education model">
+      <created>1680838477429</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680838477429</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="added Role Model and Repo" />
+    <MESSAGE value="implementing Applicant Model" />
+    <MESSAGE value="implementing Resume Model" />
+    <MESSAGE value="added Project Model" />
+    <MESSAGE value="Fix: changed primitive to wrapper class" />
+    <MESSAGE value="implemented Education model" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented Education model" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
