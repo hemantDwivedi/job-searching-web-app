@@ -1,7 +1,13 @@
+import './css/Color.css'
+
 const JoinCommunityComponent = () => {
     return (
         <div>
-            JoinCommunityComponent
+            <div className="container">
+                <div className="d-flex align-self-center justify-content-center">
+                    <p className="display-2 custom-color-text">This page is Under-Construction</p>
+                </div>
+            </div>
         </div>
     )
 }

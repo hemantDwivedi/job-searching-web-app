@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface JobService {
     List<JobDto> retrieveAllJobs();
+
+    JobDto createJob(JobDto jobDto);
 }

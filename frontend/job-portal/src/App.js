@@ -5,10 +5,11 @@ import JobsComponent from './component/JobsComponent';
 import JoinCommuniteComponent from './component/JoinCommunityComponent'
 import RegisterComponent from './component/RegisterComponent'
 import LoginComponent from './component/LoginComponent'
+import FooterComponent from './component/FooterComponent';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
       <HeaderComponent />
       <Routes>
@@ -19,6 +20,7 @@ function App() {
         <Route path='/register' element={<RegisterComponent />} />
         <Route path='/login' element={<LoginComponent />} />
       </Routes>
+      <FooterComponent />
       </BrowserRouter>
     </div>
   );
